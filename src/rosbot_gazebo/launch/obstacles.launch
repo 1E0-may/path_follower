@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <node name="spawn_obj_1" pkg="gazebo_ros" type="spawn_model" 
+     args="-urdf -file $(find rosbot_gazebo)/obstacles/obstacle_1.urdf -urdf -model obstacle_1" 
+     respawn="false" output="screen" />
+
+    <node name="spawn_obj_2" pkg="gazebo_ros" type="spawn_model" 
+     args="-urdf -file $(find rosbot_gazebo)/obstacles/obstacle_2.urdf -urdf -model obstacle_2" 
+     respawn="false" output="screen" />
+</launch>

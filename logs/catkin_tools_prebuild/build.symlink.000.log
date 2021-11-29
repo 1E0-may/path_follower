@@ -1,0 +1,12 @@
+Symlinking /home/leo/husarion/devel/./setup.sh
+Symlinking /home/leo/husarion/devel/./setup.bash
+Symlinking /home/leo/husarion/devel/./cmake.lock
+Symlinking /home/leo/husarion/devel/./local_setup.sh
+Symlinking /home/leo/husarion/devel/./_setup_util.py
+Symlinking /home/leo/husarion/devel/./local_setup.zsh
+Symlinking /home/leo/husarion/devel/./setup.zsh
+Symlinking /home/leo/husarion/devel/./env.sh
+Symlinking /home/leo/husarion/devel/./local_setup.bash
+Symlinking /home/leo/husarion/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/leo/husarion/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/leo/husarion/devel/lib/pkgconfig/catkin_tools_prebuild.pc

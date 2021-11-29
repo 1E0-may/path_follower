@@ -1,0 +1,25 @@
+<robot name="obstacle_2">
+  <link name="obstacle_2">
+    <inertial>
+      <origin xyz="8.0 2.0 0" /> 
+      <mass value="1000.0" />
+      <inertia  ixx="1000.0" ixy="0.0"  ixz="0.0"  iyy="1000.0"  iyz="0.0"  izz="1000.0" />
+    </inertial>
+    <visual>
+      <origin xyz="8.0 2.0 0"/>
+      <geometry>
+        <cylinder radius="1.1" length="0.1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="8.0 2.0 0"/>
+      <geometry>
+        <cylinder radius="1.1" length="0.1" />
+      </geometry>
+    </collision>
+  </link>
+  <gazebo reference="obstacle_2">
+    <static>true</static>
+    <material>Gazebo/Blue</material>
+  </gazebo>
+</robot>
